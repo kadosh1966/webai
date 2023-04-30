@@ -1,0 +1,192 @@
+/* Estilos generales */
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.boton {
+  background-color: #333;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.boton:hover {
+  background-color: #666;
+}
+
+/* Estilos de la navegación */
+header {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+nav {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 10px 20px;
+}
+
+nav a:hover {
+  background-color: #f4f4f4;
+}
+
+/* Estilos de las secciones */
+section {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 100px 20px;
+}
+
+section:first-of-type {
+  padding-top: 200px;
+}
+
+section h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+section h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.galeria-imagen {
+  display: inline-block;
+  margin: 0 20px 20px 0;
+  vertical-align: top;
+  width: calc(33.33% - 20px);
+}
+
+.galeria-imagen:last-of-type {
+  margin-right: 0;
+}
+
+.galeria-imagen img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Estilos del formulario de contacto */
+form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+  border: 2px solid #ccc;
+  display: block;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #333;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease-in-out;
+}
+
+form input[type="submit"]:hover {
+  background-color: #666;
+}
+
+/* Estilos del footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  margin-top: 50px;
+  padding: 
+20px;
+}
+
+footer p {
+margin 0;
+}
+
+footer ul {
+list-style none;
+margin 0;
+padding 0;
+}
+
+footer li {
+display inline-block;
+margin-right 20px;
+}
+
+footer a {
+color #fff;
+display block;
+padding 10px 20px;
+}
+
+footer ahover {
+background-color #666;
+}
+
+@media only screen and (max-width 600px) {
+nav {
+padding 10px;
+}
+
+section {
+padding 50px 10px;
+}
+
+.galeria-imagen {
+width 100%;
+}
+}
